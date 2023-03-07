@@ -114,7 +114,23 @@ print(n)
 #    if a % i == 0:
 #       print(i)
     
+#Q6
+#a=int(input("Enter num 1: "))
+#b=int(input("Enter num 2: "))
 
+#for i in range(1, min(a,b)+1):
+#    if a % i == b % i == 0:
+#       print(i)
+   
+
+#Q7 not really complete
+a=int(input("Enter num 1: "))
+b=int(input("Enter num 2: "))
+
+for i in range(1, min(a,b)+1):
+    if a % i == b % i == 0:
+       c = i
+print(c) 
 
     
 
